@@ -25,7 +25,7 @@ inner join dept_emp de on e.emp_no = de.emp_no
 inner join department dt on de.dept_no = dt.dept_no;
 
 -- 5)
-select e.first_name, e.last_name, e.hire_date
+select e.first_name, e.last_name, e.sex
 from employee e
 where e.first_name = 'Hercules' and e.last_name like 'B%';
 
